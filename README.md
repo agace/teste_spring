@@ -52,9 +52,8 @@ Para as entidades **Vila** e **Jutsu**, foram implementados:
 
 ## ▶️ Como Executar o Projeto
 
-### 1. Clone o repositório
+### Clone o repositório
 
-```bash
 git clone https://github.com/agace/teste_spring.git
 cd teste_spring
 
