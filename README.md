@@ -62,7 +62,6 @@ Execute para subir o banco:
 
 ### Execute para subir o banco:
 
-```bash
 docker-compose up -d
 
 Este comando inicia um container MySQL com o banco teste_spring e importa o backup automaticamente.
