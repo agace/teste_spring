@@ -60,12 +60,11 @@ git clone https://github.com/agace/teste_spring.git
 ```bash
 cd teste_spring
 ```
-Execute para subir o banco:
-
 ### Execute para subir o banco:
 
+```bash
 docker-compose up -d
-
+```
 Este comando inicia um container MySQL com o banco `teste_spring`e importa o backup automaticamente.
 
 ### Restaure o banco com backup.sql (opcional)
