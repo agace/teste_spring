@@ -58,7 +58,7 @@ Para as entidades **Vila** e **Jutsu**, foram implementados:
 git clone https://github.com/agace/teste_spring.git 
 ```
 ```bash
-cd `teste_spring`
+cd teste_spring
 ```
 Execute para subir o banco:
 
