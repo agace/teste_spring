@@ -1,4 +1,4 @@
-# Cadastro Ninja - Projeto Java Spring (2º Bimestre)
+# Cadastro Ninja - Projeto Java Spring 
 
 Este projeto foi desenvolvido como parte da disciplina de **Programação Avançada**. O objetivo é criar uma **API REST** para cadastro de **ninjas**, **vilas** e **jutsus**, utilizando **Java**, **Spring Boot** e banco de dados **MySQL com Docker**.
 
