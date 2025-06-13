@@ -54,22 +54,23 @@ Para as entidades **Vila** e **Jutsu**, foram implementados:
 
 ### Clone o repositório
 
-git clone https://github.com/agace/teste_spring.git
-cd teste_spring
-
+```bash
+git clone https://github.com/agace/teste_spring.git 
+cd `teste_spring`
+```
 Execute para subir o banco:
 
 ### Execute para subir o banco:
 
 docker-compose up -d
 
-Este comando inicia um container MySQL com o banco teste_spring e importa o backup automaticamente.
+Este comando inicia um container MySQL com o banco `teste_spring`e importa o backup automaticamente.
 
 ### Restaure o banco com backup.sql (opcional)
 
 Caso deseje importar dados de exemplo:
 
-docker exec -i <nome-do-container> mysql -u root -p teste_spring < backup.sql
+docker exec -i <nome-do-container> mysql -u root -p `teste_spring` < backup.sql
 Substitua <nome-do-container> pelo nome ou ID do container MySQL.
 A senha estará no compose.yaml.
 
